@@ -6,5 +6,8 @@ jobs:
     steps:
       - name: say hello
         run: echo "Hello World"
-      - name: say goodbye
-        run: echo "Goodbye"
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say good bye
+        run: echo "Good bye"
