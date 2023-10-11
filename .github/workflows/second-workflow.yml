@@ -1,0 +1,10 @@
+name: my second workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second work flow first step
+        run: echo "the second workflow for sure"
+      - name: finish
+        run: echo "final step succeded"
